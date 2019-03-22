@@ -30,11 +30,11 @@
 
             <div class="mdui-toolbar-spacer"></div>
 
-            <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-dialog="{target: '#dialog-docs-theme'}" mdui-tooltip="{content: '关于'}">
-                <i class="mdui-icon material-icons">help</i>
+            <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '关于'}">
+                <i class="mdui-icon material-icons help">help</i>
             </span>
 
-            <a href="https://github.com/zdhxiong/mdui" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'GitHub源码'}">
+            <a href="https://github.com/LuRenJiasWorld/NcmDump-Online" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'GitHub源码'}">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width: 24px;height:24px;">
                     <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M18,1.4C9,1.4,1.7,8.7,1.7,17.7c0,7.2,4.7,13.3,11.1,15.5
 	                    c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
@@ -85,7 +85,7 @@
                     </div>
 
                     <div class="mdui-card-actions">
-                        <button class="mdui-btn mdui-ripple mdui-float-right">帮助</button>
+                        <button class="mdui-btn mdui-ripple mdui-float-right help">帮助</button>
                     </div>
 
                     <div class="mdui-progress" id="download-status-bar" style="display: none;">
@@ -107,7 +107,7 @@
             <div class="mdui-dialog-title">文件不合要求</div>
             <div class="mdui-dialog-content">文件不满足要求，请确保你上传的是网易云音乐ncm格式音乐文件，且文件体积小于40M</div>
             <div class="mdui-dialog-actions">
-                <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+                <button class="mdui-btn mdui-ripple mdui-color-indigo" mdui-dialog-confirm>好</button>
             </div>
         </div>
 
@@ -115,30 +115,37 @@
             <div class="mdui-dialog-title">上传过程出现错误</div>
             <div class="mdui-dialog-content">上传过程出现错误，请检查文件体积是否小于40M以及网络是否正常连通</div>
             <div class="mdui-dialog-actions">
-                <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+                <button class="mdui-btn mdui-ripple mdui-color-indigo" mdui-dialog-confirm>好</button>
             </div>
         </div>
 
         <div class="mdui-dialog" id="convert-error">
             <div class="mdui-dialog-title">转换过程出现错误</div>
             <div class="mdui-dialog-content">转换过程出现错误，请确保上传的是可被网易云音乐播放的.ncm格式音乐</div>
-
+            <div class="mdui-dialog-actions">
+                <button class="mdui-btn mdui-ripple mdui-color-indigo" mdui-dialog-confirm>好</button>
+            </div>
         </div>
 
         <div class="mdui-dialog" id="help">
             <div class="mdui-dialog-title">关于</div>
             <div class="mdui-dialog-content">
                 作者：LuRenJiasWorld
+                <br />
                 GitHub：<a href="https://github.com/LuRenJiasWorld" target="blank">https://github.com/LuRenJiasWorld</a>
+                <br />
                 Email: <a href="mailto:loli@lurenjia.in" target="_blank">loli@lurenjia.in</a>
+                <br />
                 感谢以下开源项目与组件：
+                <br />
                 - <a href="https://github.com/pallets/flask" target="_blank">pallets/flask</a>
-                - <a href="https://github.com/QCloudHao/ncmdump" target="_blank">QCloudHao/ncmdump</a>
-                向我捐赠：
-
+                <br />
+                - <a href="https://github.com/QCloudHao/ncmdump" target="_blank">QCloudHao/ncmdump</a>（Tweaked, in <a href="https://github.com/LuRenJiasWorld/ncmdump" target="_blank">LuRenJiasWorld/ncmdump</a>）
+                <br />
+                <i>本项目遵循<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache2.0协议</a>释出源码，二次开发请注明原项目与原作者信息。</i>
             </div>
             <div class="mdui-dialog-actions">
-                <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+                <button class="mdui-btn mdui-ripple mdui-color-indigo" mdui-dialog-confirm>好</button>
             </div>
         </div>
     </div>
