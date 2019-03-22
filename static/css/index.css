@@ -1,0 +1,31 @@
+body {
+    background-color: #eeeeee;
+}
+
+.app {
+    margin: 20px 60px;
+}
+
+@media (max-width: 768px) {
+    .app {
+        margin: 40px 22px;
+    }
+}
+
+.app .mdui-card {
+    margin: 20px 5px;
+}
+
+#upload-file {
+    display: none;
+}
+
+#file-name, #download-file-name {
+    width: 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
