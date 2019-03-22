@@ -68,7 +68,7 @@ $(window).ready(() => {
                                     $("#download-file").removeAttr("disabled");
                                     $("#download-file").attr("onclick", "window.open('" + res["err_msg"] + "')");
                                     $("#download-file-name").text(res["err_msg"].split("/").pop())
-                                }, 2000);
+                                }, (Math.random() + 1) * 1500);
                                 break;
                             // 上传过程出现错误
                             case -1:
