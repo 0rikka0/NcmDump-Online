@@ -9,11 +9,8 @@ Jinja2==2.10
 MarkupSafe==1.1.1
 mutagen==1.42.0
 Naked==0.1.31
-pycrypto==2.6.1
 PyYAML==5.1
 requests==2.21.0
 shellescape==3.4.1
-simplejson==3.16.0
 soupsieve==1.8
 urllib3==1.24.1
-Werkzeug==0.14.1
