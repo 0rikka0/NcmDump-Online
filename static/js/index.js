@@ -15,6 +15,8 @@ $(window).ready(() => {
 
     var convertErrorModal = new mdui.Dialog("#convert-error", modalConfig);
 
+    var helpModal = new mdui.Dialog("#help", modalConfig);
+
     $("#select-file").on("click", () => {
         $("#upload-file").trigger("click");
     });
@@ -83,5 +85,9 @@ $(window).ready(() => {
                 })
             }
         }
-    })
+    });
+
+    $(".help").on("click", () => {
+        helpModal.open();
+    });
 });
