@@ -9,7 +9,7 @@
 ```bash
 git clone https://github.com/LuRenJiasWorld/NcmDump-Online.git
 cd NcmDump-Online
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 python3 ./app.py
 ```
 
