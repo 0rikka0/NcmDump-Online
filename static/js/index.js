@@ -73,12 +73,12 @@ $(window).ready(() => {
                             // 上传过程出现错误
                             case -1:
                                 uploadFailModal.open();
-                                window.reload();
+                                location.reload();
                                 break;
                             // 文件转换出现错误
                             case -2:
                                 convertErrorModal.open();
-                                window.reload();
+                                location.reload();
                                 break;
                         }
                         $("#upload").text("上传到服务器");
