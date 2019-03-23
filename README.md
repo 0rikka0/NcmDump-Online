@@ -19,6 +19,8 @@ python3 ./app.py
 
 - [pallets/flask](https://github.com/pallets/flask)
 - [QCloudHao/ncmdump](https://github.com/QCloudHao/ncmdump) (Tweaked in [LuRenJiasWorld/ncmdump](https://github.com/LuRenJiasWorld/ncmdump))
+- [zdhxiong/mdui](https://github.com/zdhxiong/mdui)
+- [madrobby/zepto](https://github.com/madrobby/zepto)
 
 ## 联系我
 
